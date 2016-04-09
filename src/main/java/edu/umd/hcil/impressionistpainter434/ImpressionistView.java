@@ -257,7 +257,7 @@ public class ImpressionistView extends View {
                         {
                             width = 100;
                         } else {
-                            width =150;
+                            width =450;
                         }
                         if (touchHX - width > getBitmapPositionInsideImageView(_imageView).left && touchHX < getBitmapPositionInsideImageView(_imageView).right
                                 && touchHY - width > getBitmapPositionInsideImageView(_imageView).top && touchHY < getBitmapPositionInsideImageView(_imageView).bottom) {
@@ -325,7 +325,7 @@ public class ImpressionistView extends View {
                     {
                         width = 100;
                     } else {
-                        width =150;
+                        width =450;
                     }
                     if (touchX - width > getBitmapPositionInsideImageView(_imageView).left && touchX < getBitmapPositionInsideImageView(_imageView).right
                             && touchY - width > getBitmapPositionInsideImageView(_imageView).top && touchY < getBitmapPositionInsideImageView(_imageView).bottom) {
